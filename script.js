@@ -21,7 +21,7 @@ function mostrarProyectos(proyectos) {
       divProyecto.appendChild(p);
 
       const button = document.createElement('button');
-      button.textContent = "Visualización";
+      button.textContent = proyecto.textButton;
       button.addEventListener('click',()=>{
         window.open(proyecto.link, '_blank');
       })
@@ -40,11 +40,14 @@ function mostrarProyectos(proyectos) {
       imagen: "./img/encrypt.png",
       descripcion: "un trabajo de encriptar y desencriptar con unas reglas especificas",
       link: "https://jer0r0.github.io/Encrypter-Decrypter/",
+      textButton : "Vizualizacion",
     },
     {
-      titulo: "Generación",
-      imagen: "imagen-proyecto-2.jpg",
-      descripcion: "Descripción del proyecto 2"
+      titulo: "Life Game",
+      imagen: "./img/lifegmae.png",
+      descripcion: "El juego de la vida de conway",
+      link: "https://github.com/jer0r0/LifeGame/archive/refs/heads/main.zip",
+      textButton : "Descargar",
     },
   ];
   
