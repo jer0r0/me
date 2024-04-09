@@ -44,7 +44,7 @@ function mostrarProyectos(proyectos) {
     },
     {
       titulo: "Life Game",
-      imagen: "./img/lifegmae.png",
+      imagen: "./img/lifegame.png",
       descripcion: "El juego de la vida de conway",
       link: "https://github.com/jer0r0/LifeGame/archive/refs/heads/main.zip",
       textButton : "Descargar",
