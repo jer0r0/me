@@ -1,0 +1,164 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
+
+
+body {
+    font-family: "Montserrat";
+    background-color: #fef5ea;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #313638;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  header img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    
+  }
+  header h1 {
+    font: "Montserrat";
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #313638;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .container2 {
+    display: inline-block;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }  
+  #email, #telefono{
+    margin-top: 10px ;
+  }
+  .redes{
+    width: 200px;
+    margin: 20px 40px;
+    }
+    .redes li{
+        display: inline-block;
+        width: 30%;
+    }
+    .redes li a img{
+        max-width: 35px;
+    }
+
+
+
+  /* Estilos específicos */
+  section#inicio {
+    background-color: #f4f4f4;
+  }
+  
+  section#sobre-mi {
+    background-color: #e6e6e6;
+  }
+  
+  section#proyectos {
+    background-color: #f4f4f4;
+  }
+  .containerProyectos{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* Diseño del contenedor de proyectos */
+  .proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  /* Estilo por defecto para cada proyecto */
+  .proyecto {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+  }
+  
+  /* Personaliza este estilo para cada proyecto individual */
+  .proyecto h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .proyecto p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .proyecto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  .proyecto button{
+    flex: 2;
+    background-color: #fff;
+    color: #222527;
+    border: 20px;
+    border-color: #0A3871;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: 'Montserrat';
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+  }
+
+  
+  section#contacto {
+    background-color: #e6e6e6;
+  }
+  
